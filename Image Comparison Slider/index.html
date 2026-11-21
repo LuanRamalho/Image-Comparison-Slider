@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image Comparison Slider</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <div class="card">
+          <h3>Antes e depois da transformação</h3>
+          <div class="slider" id="slider"
+              role="slider" tabindex="0"
+              aria-label="Image comparison"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="50">
+            <img class="photo after"
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
+              alt="Colour room">
+            <img class="photo before"
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
+              alt="Black and white room">
+            <span class="label left">ANTES</span>
+            <span class="label right">DEPOIS</span>
+            <div class="divider"></div>
+            <div class="handle">&#8596;</div>
+          </div>
+          <p>Arraste para a esquerda ou para a direita para revelar a imagem.</p>
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>
